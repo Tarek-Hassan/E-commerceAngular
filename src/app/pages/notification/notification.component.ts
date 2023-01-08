@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `<div>
                   <p> this notification in website</p> 
             </div>`,
-  styleUrls: ['./notification.component.css']
+  styles: [`div{ margin: 10 px 0px; background-color:#FAD7A0;text-align:center}`]
 })
 export class NotificationComponent implements OnInit {
 
